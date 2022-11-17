@@ -9,6 +9,6 @@ We can break the project into three parts:
 
 3- Writing the result into a text file
 
-You can just open the solution and run it, the input and the output will be in the bin file.
+You can just open the solution and run it and check the results from Output file.
 
 Essential parts of the code have explanatory comments, but you are welcome to contact me if you have any further questions.
