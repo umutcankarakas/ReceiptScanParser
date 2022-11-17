@@ -24,7 +24,7 @@ namespace ReceiptScanParser
             List<String> ParsedList = ParserHelper.ParseList(SortedList);
 
             //Wrote the output to a text file
-            using (TextWriter tw = new StreamWriter("Output.txt"))
+            using (TextWriter tw = new StreamWriter("..\\..\\..\\Output\\Output.txt"))
             {
                 foreach (String s in ParsedList)
                     tw.WriteLine(s);

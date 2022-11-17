@@ -13,7 +13,7 @@ namespace ReceiptScanParser.Helper
         //Loading the json file and converting it to the list of models
         public static List<ResponseModel> LoadJson()
         {
-            string filepath = AppDomain.CurrentDomain.BaseDirectory + "\\Data\\response.json";
+            string filepath = "..\\..\\..\\Data\\response.json";
             using (StreamReader r = new StreamReader(filepath))
             {
                 string json = r.ReadToEnd();

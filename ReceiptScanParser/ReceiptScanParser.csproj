@@ -6,13 +6,12 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Remove="Data\**" />
-    <EmbeddedResource Remove="Data\**" />
-    <None Remove="Data\**" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+    <Folder Include="Data\" />
+    <Folder Include="Output\" />
   </ItemGroup>
 
 </Project>
