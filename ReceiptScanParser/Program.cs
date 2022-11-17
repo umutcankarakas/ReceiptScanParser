@@ -1,11 +1,13 @@
 ﻿using System;
+using ReceiptScanParser.Helper;
 
 namespace ReceiptScanParser
 {
-    internal class Program
+    public class Program
     {
         static void Main(string[] args)
         {
+            var Models = ParserHelper.LoadJson();
             Console.WriteLine("Hello World!");
         }
     }
